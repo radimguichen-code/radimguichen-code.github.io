@@ -1,0 +1,26 @@
+body {
+  background-color: powderblue;
+  
+}
+h1 {
+  color: rgb(132, 132, 255);
+  font-family: Arial;
+  margin: 1em;
+}
+h2 {
+    color: rgb(87, 87, 255);
+    font-family: Arial;
+    margin-left: 1.5em;
+}
+
+h3 {
+    color: rgb(0, 0, 255);
+    font-family: Arial;
+    margin: 2em;
+}
+
+p {
+  color: blue;
+  font-family: Arial;
+  margin-left: 3em;
+}
