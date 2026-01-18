@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #96bef9;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1.5em;
+}
+
+h1 {
+    color: #0c5f8f;
+    border-bottom: 2px solid #0c5f8f;
+    padding-bottom: 0.5em;
+}
+
+#vysledek {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #0c5f8f;
+    margin: 1em 0;
+}
+
+
+
+#formular {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#vstup1, #vstup2 {
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 150px;
+    text-align: center;
+    border: 2px solid #8f9dd3;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+#vstup1:focus, #vstup2:focus {
+    border-color: #0c5f8f;
+    outline: none;
+}
+
+button {
+    font-size: 1.3em;
+    padding: 0.5em 1.5em;
+    margin: 0.3em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#tlPlus {
+    background: #24ea42;
+    color: white;
+}
+
+#tlMinus {
+    background: #f44336;
+    color: white;
+}
+
+#tlDeleno {
+    background: #4c32f6;
+    color: white;
+}
+
+#tlKrat {
+    background: #f0a500;
+    color: white;
+}
